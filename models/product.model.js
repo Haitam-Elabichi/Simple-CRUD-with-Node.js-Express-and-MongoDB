@@ -32,7 +32,7 @@ const ProductScheme=mongoose.Schema(
     },
 
     {
-        timestamps: true ,// ✅ التصحيح هنا
+        timestamps: true ,
     }
 )
 const Product =mongoose.model("Product",ProductScheme);
